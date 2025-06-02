@@ -1,7 +1,8 @@
-Lung Cancer Detection using Machine Learning
+# Lung Cancer Detection using Machine Learning
+
 This project aims to analyze and predict lung cancer using a dataset of patient lifestyle and health indicators. The dataset includes attributes like smoking habits, age, gender, alcohol consumption, and symptoms such as chest pain and shortness of breath. Several machine learning models are trained and evaluated to find the most accurate predictor.
 
-📁 Dataset
+## 📁 Dataset
 The dataset is sourced from a public file and contains the following attributes:
 
 GENDER: Male (M) or Female (F)
@@ -12,7 +13,7 @@ SMOKING, YELLOW_FINGERS, ANXIETY, etc.: Encoded as YES=2, NO=1
 
 LUNG_CANCER: Target variable (YES or NO)
 
-📊 Exploratory Data Analysis (EDA)
+## 📊 Exploratory Data Analysis (EDA)
 Visual analysis includes:
 
 Gender distribution in lung cancer cases
@@ -23,12 +24,12 @@ Smoking and alcohol correlation with lung cancer
 
 Heatmap showing feature correlations
 
-⚙️ Data Preprocessing
+## ⚙️ Data Preprocessing
 Converted categorical variables (e.g., GENDER, LUNG_CANCER) to numerical
 
 Scaled the AGE column using StandardScaler
 
-🤖 Machine Learning Models
+## 🤖 Machine Learning Models
 Trained six models:
 
 Logistic Regression
@@ -43,14 +44,15 @@ K-Nearest Neighbors (KNN)
 
 Naive Bayes
 
-Model Evaluation
+## Model Evaluation
 Accuracy scores were computed for each model, and the results were visualized in a bar chart. Accuracy ranged between 90–97%.
 
-📈 Results
+## 📈 Results
 The models performed with high accuracy. The best-performing models were selected based on accuracy on the test set.
 
-📂 Output Visuals
-Saved figures include:
+## 📂 Output Visuals
+
+### Saved figures include:
 
 Gender vs Cancer Distribution (Pie chart)
 
@@ -62,12 +64,13 @@ Correlation Heatmap
 
 Model Accuracy Comparison (Bar chart)
 
-🛠 Requirements
+## 🛠 Requirements
 Python 3.11
 
-Libraries: pandas, numpy, matplotlib, seaborn, sklearn
+## Libraries: 
+pandas, numpy, matplotlib, seaborn, sklearn
 
-▶️ How to Run
+## ▶️ How to Run
 Clone the repository or run the notebook in Google Colab.
 
 Make sure the necessary libraries are installed.
