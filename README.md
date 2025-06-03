@@ -65,7 +65,7 @@ Correlation Heatmap
 Model Accuracy Comparison (Bar chart)
 
 ## 🛠 Requirements
-Python 3.11
+Python 3.11.2
 
 ## Libraries: 
 pandas, numpy, matplotlib, seaborn, sklearn
